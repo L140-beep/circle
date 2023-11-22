@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "data-circle"
+version = "0.1.0"
+description = ""
+authors = ["L140-beep <maxim.klypin@polyus-nt.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.*"
+opencv-python = "^4.8.1.78"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
